@@ -51,7 +51,16 @@ void keyboard_post_init_user(void) {
 //   KC_LRGR  -> LT(LOWER, KC_GRV)
 //   KC_RSSP  -> LT(RAISE, KC_SPC)
 
+
 #include QMK_KEYBOARD_H
+#include "hardware/gpio.h"
+
+void keyboard_post_init_user(void) {
+    gpio_init(28);
+    gpio_set_dir(28, GPIO_IN);
+    gpio_pull_up(28);
+}
+
 
 // Layer indices
 enum layers {
