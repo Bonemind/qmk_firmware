@@ -9,3 +9,4 @@
 #define SERIAL_USART_RX_PIN GP1
 #define SERIAL_DEBUG
 #define MASTER_LEFT
+#define TAPPING_TERM 100

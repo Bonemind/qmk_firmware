@@ -26,7 +26,7 @@
                     [ "GP22", "GP21", "GP2", "GP5", "GP8", "GP11" ],
                     [ "GP20", "GP19", "GP3", "GP6", "GP9", "GP12" ],
                     [ "GP18", "GP17", "GP4", "GP7", "GP10", "GP13" ],
-                    [ "GP15", "GP14", "GP16", "GP28", null, null ]
+                    [ "GP15", "GP16", "GP14", "GP28", null, null ]
                 ]
             }
         },
