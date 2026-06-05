@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                        KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, MT_RSEN,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                   KC_LGUI, KC_LRGR, KC_SPC, KC_LALT,   KC_A, KC_ESC,  KC_RSSP, KC_RALT
+                                   KC_LGUI, KC_LRGR, KC_SPC, KC_LALT,   KC_F17, KC_ESC,  KC_RSSP, KC_RALT
                                         //`--------------------------'  `--------------------------'
     ),
 
@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_LSFT, KC_6,    KC_7,    KC_8,    KC_9,    KC_0,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, MT_RSEN,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                   KC_LGUI, KC_LRGR, KC_SPC, KC_LALT,   KC_A, KC_ESC,  KC_RSSP, KC_RALT
+                                   KC_LGUI, KC_LRGR, KC_SPC, KC_LALT,   KC_F17, KC_ESC,  KC_RSSP, KC_RALT
                                         //`--------------------------'  `--------------------------'
     ),
 
@@ -68,7 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                    KC_HOME, KC_PGDN, KC_PGUP, KC_END,  XXXXXXX, KC_RSFT,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                   KC_LGUI, KC_LRGR, KC_SPC, KC_LALT,   KC_A, KC_ESC,  KC_RSSP, KC_RALT
+                                   KC_LGUI, KC_LRGR, KC_SPC, KC_LALT,   KC_F17, KC_ESC,  KC_RSSP, KC_RALT
                                         //`--------------------------'  `--------------------------'
     ),
 
